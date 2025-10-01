@@ -17,7 +17,7 @@ if a==1:
 
     print(text1)
 elif a==2:
-    Number = input("enter number: ")
+    Number1 = input("enter number: ")
     mot = input("enter mot: ")
     Transportation = input("enter Transportation: ")
     Adjective = input("enter Adjective: ")
@@ -27,7 +27,7 @@ elif a==2:
     potb = input("enter Part of the Body: ")
 
     
-    text2=f"""It was about {Number} {mot} ago when I arrived at the hospital in a{mot}. 
+    text2=f"""It was about {Number1} {mot} ago when I arrived at the hospital in a{mot}. 
     The hospital is a/an {Adjective} place, there are a lot of {Adjective2} {Noun} here. There are nurses here who have {Color} {potb}."""
     print(text1)
 else:
